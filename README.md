@@ -15,3 +15,7 @@ Compile:
 3. Bubblesort
 
 4. Countingsort
+
+5. Odd - Even sort
+
+6. Exchange Sort
