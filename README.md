@@ -29,7 +29,6 @@ Implement serveral searching algorithm.
 
 `make` : generate the executable program.
 
-`make run` : run the sorting function ( Sorting array based on random generated integer array )
-
+`make run` : run the searching(or printing) function
 ###### Implement list
-(print_tree) : for print out the tree to verify accuracy.
+1.BST(binary search tree)
