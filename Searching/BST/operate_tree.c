@@ -32,3 +32,27 @@ BST* Insert(BST* node , int data)
 	
 	return node;
 }
+
+int Find(BST *root , int data)
+{
+	int judge = 0;
+	if(root->value == data)
+	{
+		printf("Find the value %d in the BST\n",data);
+		return 1;
+	}
+	
+	if(data > (root->value))
+	{
+		judge = Find(root->right,data);
+	}
+	else if(data < (root->value))
+	{
+		judge = Find(root->left,data);
+	}
+
+	if(judge == 0)
+	{
+		printf("Not Found %d in the BST!\n",data);
+	}
+}
